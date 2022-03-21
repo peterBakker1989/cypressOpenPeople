@@ -1,0 +1,5 @@
+.spelBord {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin: 10px auto;
+}

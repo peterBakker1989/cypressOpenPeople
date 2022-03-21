@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boter Kaas en Eieren</title>
+    <script src="boterKaasEnEieren.js" defer></script>
+    <style>
+        main {
+            text-align: center;
+        }
+
+        .spelBord {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            margin: 10px auto;
+            color: blue;
+            width: 306px;
+        }
+
+        .veld {
+            width: 100px;
+            height: 100px;
+            border: 2px solid;
+            cursor: pointer;
+            text-align: center;
+            font-size: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div>
+            <h2>boter kaas en eieren</h2>
+            <div class="spelBord">
+                <div data-cell-index="0" id="veld-0" class="veld"></div>
+                <div data-cell-index="1" id="veld-1" class="veld"></div>
+                <div data-cell-index="2" id="veld-2" class="veld"></div>
+                <div data-cell-index="3" id="veld-3" class="veld"></div>
+                <div data-cell-index="4" id="veld-4" class="veld"></div>
+                <div data-cell-index="5" id="veld-5" class="veld"></div>
+                <div data-cell-index="6" id="veld-6" class="veld"></div>
+                <div data-cell-index="7" id="veld-7" class="veld"></div>
+                <div data-cell-index="8" id="veld-8" class="veld"></div>
+            </div>
+            <h2 id="stand"></h2>
+            <p id="speler">speler: x</p>
+            <button id="restart">Restart</button>
+        </div>
+    </main>
+</body>
+
+</html>
